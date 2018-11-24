@@ -1,0 +1,176 @@
+html {
+  background: url(images/bg.jpg);
+  background-size: contain;
+}
+a:active{
+  color: red
+}
+
+a:link{
+  color: yellow;
+
+}
+
+
+v:link {
+  color: purple;
+
+}
+
+a:hover{
+  text-decoration: underline;
+ color: blue;
+}
+
+form{
+  width: 700px;
+}
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+h3 {
+  text-align: center;
+
+}
+
+h4 {
+	text-align: center;
+}
+h5 {
+	text-align: center;
+}
+hr{  
+  width: 30%;
+  height: 90px; 
+  border-width: 50 50 20px 5; 
+  border-radius: 50px;
+  size: 20%;   
+}
+/*NAVVIGATION STARTS HERE*/
+.nav {
+  background-color: transparent;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 15px;
+  background-color: 
+  color: white;
+
+}
+
+}
+.nav.active {
+background-color: #fc334c;
+}
+
+/*JUMBOTRON STARTS HERE*/
+.jumbotron {
+  background-image:  url('images/bk.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding: 5px;
+}
+/*WEB DEVELOPMENT*/
+.sec {
+  width: auto;
+  font-size: 1.6em;
+  padding: 5px 5px 55px 5px;
+}
+img.box{
+      box-shadow: 0 5px 20px rgba(0, 0, 0, .50);
+}
+
+
+
+/*FIRST SET OF CARDS*/
+.bg1{
+  background: #3885B1;
+  height: auto;
+  padding: 5px 5px 55px 5px;
+}
+
+
+/*SECOND SET OF CARDS*/
+.bg2{
+  background: #FFAA2C;
+    height: auto;
+    padding: 5px 5px 55px 5px;
+}
+
+
+.card {
+  margin-top: 10%;
+  padding: 3px;
+}
+
+.box{
+  padding-top: 2em;
+ box-shadow: 0 5px 20px rgba(0, 0, 0, .40);
+      
+}
+
+
+.android{
+  width: auto;
+  font-size: 21px;
+  margin-top: 15px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.image {
+  margin-top: 30px;
+  width: auto;
+  padding: 5px 5px 45px 5px;
+}
+/*FOOTER STARTS HERE*/
+footer {
+  background-color: #fc334c;
+  text-align: center;
+  color: white; 
+  margin-top: 4px
+  padding-top: 5px;
+
+}
+.foot {
+  font-size: 12px;
+}  
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 15px;
+        text-align: center;
+    }
+    h1{
+      text-align: center;
+      font-size: 14px;
+    }
+    p {
+      font-size: 15px;
+      text-align: center;
+      padding: 2px; 
+    }
+
+
+  html,.jumbotron {
+
+     background-image:  url('images/bk.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    padding-left: 2px;
+    padding-right:2px;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-top: 20px;
+  }
+
+
+}
+
